@@ -56,3 +56,32 @@ Recebe as requisições do usuário controlando qual Model usar e qual view ser�
 
 <h2>Model</h2>
 Responsável pela leitura, escrita e validação dos dados 
+
+<h1><b>Deploy AWS<b></h1>
+ 
+ 1.Abra o Console do Elastic Beanstalk com este link pré-configurado: console.aws.amazon.com/elasticbeanstalk/home#/newApplication?applicationName=tutorials&environmentType=LoadBalanced
+ 
+ 2.Para Platform, escolha a Plataforma que corresponde à linguagem usada pelo aplicativo.
+ 
+ 3.Selecione Review clique em duas regiões e subregiôes
+ 
+ 4.Selecione launch
+ 
+ 5.Examine as opções disponíveis. Quando estiver satisfeito com elas, escolha Create app.
+ 
+ 6.Certifique-se de que o ambiente foi iniciado com êxito verificando o status de Health (Integridade) no Console do Elastic Beanstalk. O status deve ser Green.
+ 
+ 7.No Visual Studio, abra Desafio01.sln.
+ 
+ 8.No menu View, escolha Solution Explorer.
+ 
+ 9.Abra o menu de contexto (clique com o botão direito) de MVC5App e escolha Publish to AWS.
+ 
+ 10.Na página Publish to AWS Elastic Beanstalk, para Deployment Target, escolha o ambiente que você acabou de criar e, em seguida, escolha Próximo.
+ 
+ 11.Na página Application Options, aceite todos os valores padrão e escolha Próximo.
+
+12.Na página Análise, escolha Deploy.
+
+13.Volte para o Console do Elastic Beanstalk e escolha o nome do aplicativo que aparece ao lado do nome do ambiente.
+
