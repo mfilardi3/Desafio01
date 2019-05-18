@@ -57,7 +57,7 @@ Recebe as requisições do usuário controlando qual Model usar e qual view ser�
 <h2>Model</h2>
 Responsável pela leitura, escrita e validação dos dados 
 
-<h1><b>Deploy AWS<b></h1>
+<h1><b>Deploy AWS</b></h1>
  
  1.Abra o Console do Elastic Beanstalk com este link pré-configurado: console.aws.amazon.com/elasticbeanstalk/home#/newApplication?applicationName=tutorials&environmentType=LoadBalanced
  
